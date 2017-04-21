@@ -1,0 +1,35 @@
+
+# General configs
+baseurl: ''
+url: ''
+lang: en_US
+
+# SEO cofigs
+head:
+  title: Bruno Malhano
+  description: Back-end Developer
+  author: Bruno Malhano
+  github: brunomalhano
+  # codepen: username
+  # linkedin: username
+  # themeColor: purple
+  # imagePathMain: /path/to/img
+
+  jsonld:
+    type: person
+    name: Bruno Malhano
+    url: example@example.com.br
+    email: your-email@domain.com
+
+  # twitter:
+  #   author: Your username
+
+source: app/
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - src
