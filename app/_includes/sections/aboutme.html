@@ -1,0 +1,20 @@
+
+<section id="aboutme" class="aboutme">
+  <article class="aboutme-author">
+
+    <!-- Author's image box -->
+    <div class="aboutme-author-photo">
+      <img
+        src="{{ "/assets/img/person-photo.jpg" | prepend: site.baseurl | prepend: site.url }}"
+        alt="Author's photo">
+    </div>
+
+    <!-- Author's information -->
+    <div class="aboutme-author-infos">
+      <h2 class="aboutme-author-title">I little about me..</h2>
+      <p class="aboutme-author-desc">
+        {{ site.head.description_extended | truncate: 500 }}
+      </p>
+    </div>
+  </article>
+</section>
