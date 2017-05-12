@@ -25,6 +25,7 @@
     "tests"
   ],
   "dependencies": {
-    "jQuery": "^3.2.1"
+    "jQuery": "^3.2.1",
+    "fullpage.js": "^2.9.4"
   }
 }
