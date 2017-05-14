@@ -1,10 +1,6 @@
-### Halfeld Boilerplate
+## My Awesome website
 
-A Jekyll boilerplate to improve productivity
-
-### Contribute
-
-**Keep it simple, Stupid**
+> Built using [Halfeld boilerplate](https://github.com/halfeld/halfeld-boilerplate)
 
 ### How to use
 
@@ -20,11 +16,3 @@ npm install
 npm start
 # localhost:3000
 ```
-
-### Stack
-
-+ Jekyll
-+ Stylus
-+ Browserify
-+ Babel
-+ Gulp
